@@ -1,0 +1,47 @@
+.newtodo-container{
+    background-color: #37515F;
+    height: 60vh;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.newtodo-container h2{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.newtodo-container form div{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+label{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+input, textarea{
+    padding: 12px ;
+    width: 420px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.add-todo-btn{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #E4959E;
+    color: white;
+}

@@ -1,0 +1,23 @@
+
+.contries-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 300px;
+    margin: 0 auto 10px;
+    padding: 8px;
+    border:none;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    &:focus{
+        box-shadow: 3px 3px 4px #D64045;
+    }
+}

@@ -1,0 +1,28 @@
+.country-card{
+    border: 2px solid #D64045;
+    margin: 16px;
+    box-shadow: 2px 2px 4px #D64045;
+}
+
+.country-card img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 4px auto;
+}
+
+.country-card-content {
+    margin: 0 20px;
+}
+
+.country-card-content button{
+    margin-bottom: 8px;
+    background-color: #D64045;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 6px 8px;
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+}
